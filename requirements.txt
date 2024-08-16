@@ -1,0 +1,18 @@
+requests==2.31.0
+tweepy==4.14.0
+
+# -i https://pypi.org/simple
+tweepy
+geopy
+geopandas
+matplotlib
+instagrapi
+pyTelegramBotAPI
+google-generativeai
+moviepy>=1.0.3
+pytube
+threads-py
+keys
+functions
+schedule
+datetime
