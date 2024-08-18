@@ -36,7 +36,7 @@ def tweet_random_line(file_path):
         print(f"An error occurred: {e}")
 
 if __name__ == "__main__":
-    file_path = 'lyricsgreenday.txt'
+    file_path = 'data/lyricsgreenday.txt'
 
     while True:
         tweet_random_line(file_path)
