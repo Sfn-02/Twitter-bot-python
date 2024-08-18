@@ -3,11 +3,11 @@ import random
 import time
 
 # Twitter API credentials for API v2
-API_KEY = "QXqAjXqRmQpjcyWySspM78i5M"
-API_SECRET_KEY = "sNqcdMzbQtpBPN7LS6wxyYIxph0q4CcGg7HeDAdxCyrmRRLcic"
-BEARER_TOKEN = r"AAAAAAAAAAAAAAAAAAAAAE2O4wAAAAAAQzYQ5WvMNrufghTC8OLKwldn2ns%3Dus6YPC3qLQ953Tl9QlRcfGwu2EXKwCRaQI8xBy0nM9Xw49w0Kw"
-ACCESS_TOKEN = "972641165035163648-zc4AcK7Jo3mvXRVqusYVrgiyGsLqjQA" #original creado el 10 de marzo de 2018 xd
-ACCESS_TOKEN_SECRET = "P5vapvnjZ2THqgsxft0UxW1pEVA9QC5mJ136sdFuyUlaZ" #x2
+API_KEY = "my_api_key"
+API_SECRET_KEY = "api_secret"
+BEARER_TOKEN = "my_bearer_token"
+ACCESS_TOKEN = "access_token" #original creado el 10 de marzo de 2018 xd
+ACCESS_TOKEN_SECRET = "access_secret" #x2
 
 # Authenticate using OAuth 2.0 Bearer Token
 client = tweepy.Client(bearer_token=BEARER_TOKEN, 
