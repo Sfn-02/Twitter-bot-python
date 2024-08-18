@@ -16,6 +16,10 @@ client = tweepy.Client(bearer_token=BEARER_TOKEN,
                        access_token=ACCESS_TOKEN, 
                        access_token_secret=ACCESS_TOKEN_SECRET)
 
+#pruebo si api funciona
+auth = tweepy.OAuth1UserHandler(API_KEY, API_SECRET_KEY, ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
+api = tweepy.API(auth)
+
 def tweet_random_line(file_path):
     print("Attempting to tweet...")
     with open(file_path, 'r', encoding='utf-8') as file:
