@@ -1,4 +1,4 @@
-name: tuitear
+name: tweet random line
 
 on:
   schedule:
