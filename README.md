@@ -91,7 +91,7 @@ Next, **create your `tweets.txt` file with your tweets, separated by line.** Tak
 Where it says File_path, change its value to whichever the file path to your `tweets.txt` file is, for example:
 file_path = 'C:/Users/Sfn02/Downloads/bot for twitter/tweets.txt'. Save these changes.
 
-And now, open a Terminal (`cmd.exe`) in the folder you're working on. If you need to know [how]https://www.wikihow.com/Open-a-Folder-in-Cmd
+And now, open a Terminal (`cmd.exe`) in the folder you're working on. If you need to know [how](https://www.wikihow.com/Open-a-Folder-in-Cmd)
 Or `Terminal` on [macos](https://www.youtube.com/watch?v=aj9QWELAv9o)/linux from the `bot for twitter` folder.
 
 Now paste this in the `cmd`:
