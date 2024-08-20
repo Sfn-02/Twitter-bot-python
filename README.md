@@ -60,16 +60,22 @@ Write a bot that does what you want it to. You can use my `main.py` file, or do 
 I guess you can do all of this online on Github, but it must be uncomfortable and not practical.
 I recommend you do the following:
 
-Just to test that it runs locally, do this:
+also, just to test that it runs locally:
 
-Open an ediitor and copy my `main.py` file and paste it, to edit it locally on your pc, or download it and open it. You can use Notepad or, if you have it, VSCode (recommended). I made mine with VSCode.
+Copy my `main.py` file and paste it, to edit it locally on your pc, or download it and open it. You can use Notepad or, if you have it, VSCode (recommended). I made mine with VSCode. You will need:
+
+https://marketplace.visualstudio.com/items?itemName=ms-python.debugpy
+
+https://marketplace.visualstudio.com/items?itemName=ms-python.python
+
+https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance
 
 Create a folder for the bot, and name it something like `bot for twitter`, where you will keep the `.txt` file (in my case, with the lyrics to tweet), and the `main.py` file.
 
 In the `main.py` file, replace the 5 keys' values from the previous step, with your own. Put all of them in between " ", except the `bearer token`, which will look like r" " (at least in my case). Save the changes.
 
 `Note: if you're uploading it to Github at some point, make sure to delete the 5 key values before you upload it!`
-`Write anything else, like API_KEY = my_api_key instead of the actual values. Only you should have access to them`
+`Write anything else, like API_KEY = my_api_key instead of the actual values. Only you should have access to them!`
 
 Download my `requirements.txt` file, or copy and paste the following contents into a new local `.txt` file. Save it in the same folder, `bot for twitter`, as `requirements.txt`.
 
@@ -80,7 +86,13 @@ random
 time
 ```
 
-And now, open a Terminal (`cmd`) in the folder you're working on. If you need to know how: https://www.wikihow.com/Open-a-Folder-in-Cmd
+Next, **create your `tweets.txt` file with your tweets, separated by line.** Take your time. Choose something you like, anything.
+
+Where it says File_path, change its value to whichever the file path to your `tweets.txt` file is, for example:
+file_path = 'C:/Users/Sfn02/Downloads/bot for twitter/tweets.txt'. Save these changes.
+
+And now, open a Terminal (`cmd.exe`) in the folder you're working on. If you need to know [how]https://www.wikihow.com/Open-a-Folder-in-Cmd
+Or `Terminal` on [macos](https://www.youtube.com/watch?v=aj9QWELAv9o)/linux from the `bot for twitter` folder.
 
 Now paste this in the `cmd`:
 
@@ -88,14 +100,21 @@ Now paste this in the `cmd`:
 pip install -r requirements.txt
 ```
 
-Let it do the work, and then, if it's all set, in a Terminal, `cmd`, opened in the `bot for python` folder, type:
+This will install the necessary requirements to make the bot work. Let it do the work.
+
+And then, if it's all set, in a Terminal, `cmd.exe`, opened in the `bot for python` folder, type:
 
 ```
 python main.py
 ```
 
-which will make the bot start working.
+which will make the bot start working. If everything's good, you should see something like:
 
+```
+Attempting to tweet...
+Tweeted: (any string from your tweets.txt file)
+Tweet ID: (some number)
+```
 
 
 
