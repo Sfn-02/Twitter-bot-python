@@ -100,7 +100,7 @@ Now paste this in the `cmd`:
 pip install -r requirements.txt
 ```
 
-This will install the necessary requirements to make the bot work. Let it do the work.
+This will install the necessary requirements to make the bot work. Let it think and process the request.
 
 And then, if it's all set, in a Terminal, `cmd.exe`, opened in the `bot for python` folder, type:
 
@@ -116,15 +116,8 @@ Tweeted: (any string from your tweets.txt file)
 Tweet ID: (some number)
 ```
 
+If you keep the terminal open while using your computer, every hour you will see it tweets.
 
-
-
-
-
-
-
-
-
-
+If it worked, congratulations!
 
 ## 3. Create a new repository on Github
